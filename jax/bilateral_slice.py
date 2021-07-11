@@ -17,9 +17,9 @@
 
 import jax
 import jax.numpy as jnp
-from .numerics import lerp_weight
-from .numerics import smoothed_lerp_weight
-from .numerics import smoothed_lerp_weight_grad
+from numerics import lerp_weight
+from numerics import smoothed_lerp_weight
+from numerics import smoothed_lerp_weight_grad
 
 
 # TODO(jiawen): Cache intermediates and pass them in.
